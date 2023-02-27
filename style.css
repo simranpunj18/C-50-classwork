@@ -1,0 +1,25 @@
+h1 {
+    color: pink;
+}
+.header{
+    background-color:purple;
+    display: flex; 
+    justify-content: space-between;
+}
+.site-description{
+   display: flex;
+   flex-direction:column;
+   justify-content: first baseline;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    display: flex; 
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
